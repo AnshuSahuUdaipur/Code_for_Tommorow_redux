@@ -1,0 +1,117 @@
+/* Style for the navigation bar */
+nav {
+  display: flex;
+  justify-content: center; /* Center the navigation items horizontally */
+  background-color: #333; /* Dark background color for the nav bar */
+  padding: 10px 20px; /* Padding inside the nav bar */
+}
+
+/* Style for each link in the navigation bar */
+nav a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underlines from links */
+  padding: 10px 15px; /* Padding around the text */
+  font-size: 16px; /* Font size for the links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Style for hover state of the links */
+nav a:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+  color: #ffeb3b; /* Yellow text color on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Optionally style the active link (current page) */
+nav a.active {
+  background-color: #444; /* Darker background for the active link */
+  color: #ffeb3b; /* Yellow text color for the active link */
+  font-weight: bold; /* Make the active link text bold */
+}
+
+/* 
+.lower-div{
+  height: 400px;
+  width: full;
+  border-radius: 2px;
+  border: 1px solid black;
+  gap: 10px;
+  font-size: 20px;
+ 
+
+}
+.main{
+  display: flex;
+
+}
+
+.button{
+  width: 100px;
+  background-color: black;
+  color: white;
+
+} */
+
+.home {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.lower-div {
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+
